@@ -142,7 +142,6 @@ function Order({ closeHour, openHour }) {
     </div>
   );
 }
-
 //Reactv18 rendering
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
