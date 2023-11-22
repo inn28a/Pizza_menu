@@ -11,13 +11,13 @@ React Key Components and Methods:
 * Pizza Component: Represents an individual pizza, using props to dynamically display details such as name, ingredients, price, and availability status. The 'map()' method is employed to iterate through the pizzaData array and render each Pizza component.
 * Footer Component: Determines the current time and uses it to conditionally render either the Order component or a message about the restaurant's opening hours.
 
-2.Dynamic Styling:
+2. Dynamic Styling:
 * CSS Classes: Dynamically assigns CSS classes to elements based on the availability status of pizzas, allowing for visual differentiation between available and sold-out items.
 
-3.Online Ordering:
+3. Online Ordering:
 * Order Component: This component is conditionally rendered in the Footer, providing information about the restaurant's opening hours and encouraging users to order online. It incorporates the current opening and closing hours.4.Conditional Rendering:
 
-4.Conditional Rendering
+4. Conditional Rendering
 * Conditional Statements: Conditional rendering is applied in various places, such as displaying the menu when pizzas are available and showing a message when the menu is still in progress. It also checks the availability status of each pizza to determine whether to display the "SOLD OUT" label.
 
   
